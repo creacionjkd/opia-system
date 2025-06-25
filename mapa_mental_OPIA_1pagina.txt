@@ -1,0 +1,41 @@
+
+🧠 MAPA MENTAL — OPIA EN 1 PÁGINA (Versión Inicial)
+
+1. 🧭 DOCTRINA OPIA: Núcleo Filosófico
+   - 3 Pilares: Comandante Optimizado, Forja Agéntica, Orquestación Jerárquica
+   - Principios: Modularidad, Evolución, Acción guiada por intención
+
+2. 🎯 OBJETIVO PRINCIPAL
+   - Crear una infraestructura agéntica productiva, monetizable y replicable
+   - Basado en JSONs, APIs, LLMs y agentes especializados
+
+3. 🔧 COMPONENTES FUNCIONALES
+   - Manifiestos JSON con triggers, prioridad y parámetros
+   - Agentes que leen, ejecutan y registran su misión
+   - Endpoint universal: POST /lanzar_mision
+   - Sistema de logs y archivo_estado_opia_<fecha>.json
+   - Observabilidad + CI/CD (Docker, GitHub Actions)
+
+4. 🧱 INFRAESTRUCTURA
+   - FastAPI + Python + Git + Docker
+   - IDE: VSCode o Jupyter
+   - Versionado: GitHub
+
+5. 🧑‍🎓 FORMACIÓN (Plan Maestro)
+   - Git y control de versiones
+   - Python limpio + TDD + pytest
+   - Arquitectura Hexagonal + DDD
+   - Validación de JSON + Pydantic
+   - Automatización con sched / n8n / Zapier
+   - Integración con modelos como Kimi-Dev-72B, MiniMax M1
+
+6. 📊 TRACKING Y FOCO
+   - estado_opia diario
+   - hoja_ruta_opia (misiones activas)
+   - Bitácora de energía y logros
+
+7. 🔮 VISIÓN FINAL
+   - Sistema usable por voz o intención escrita
+   - Automatiza flujos humanos sin necesidad de programar
+   - Multiplica tu capacidad de acción con orquestación agéntica
+
