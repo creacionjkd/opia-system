@@ -1,0 +1,33 @@
+{
+  "nombre_agente": "Foco Diario",
+  "id": "OPIA_FOCO_001",
+  "descripcion": "Agente encargado de ayudar al usuario a establecer y mantener el foco estratégico diario, evitar la dispersión y alinear acciones con la hoja de ruta del sistema OPIA.",
+  "estado": "activo",
+  "tipo": "agente_funcional",
+  "activador": "inicio_de_sesion",
+  "acciones_clave": [
+    "Preguntar al usuario por su intención principal del día",
+    "Revisar archivo de hoja de ruta activo",
+    "Comparar con los proyectos y prioridades del sistema",
+    "Proponer una micro-hoja de ruta para hoy",
+    "Registrar el foco del día en la bitácora"
+  ],
+  "interacciones_esperadas": [
+    "input_usuario_intencion",
+    "selección_prioridades",
+    "confirmación_tareas",
+    "cierre_sesion_con_log"
+  ],
+  "archivos_relacionados": [
+    "data/bitacora_opia.json",
+    "data/hoja_ruta_activa.json"
+  ],
+  "condiciones_de_activacion": {
+    "al_iniciar_sesion": true,
+    "si_no_hay_foco_definido": true
+  },
+  "logica_colaborativa": {
+    "conecta_con": ["Evaluador Diario", "Bitácora", "Agente de Aprendizaje"],
+    "bloquea_si": ["estado_emocional_inestable", "prioridades_no_claras"]
+  }
+}
