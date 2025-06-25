@@ -1,6 +1,29 @@
 {
-  "bitacora": [],
-  "última_actualización": null,
+  "bitacora": [
+    {
+      "fecha": "2025-06-25",
+      "foco_dia": "Finalizar módulo de agente Foco",
+      "intención_usuario": "Avanzar el sistema OPIA un 10%",
+      "proyectos_asociados": [
+        "opia-system",
+        "curso IA avanzada"
+      ],
+      "estado_inicial": {
+        "energía": "Alta",
+        "emocional": "Motivado",
+        "mental": "Enfocado"
+      },
+      "acciones_clave": [],
+      "resultados_obtenidos": [],
+      "notas_finales": "",
+      "evaluación_auto": {
+        "logros": "",
+        "retos": "",
+        "aprendizajes": ""
+      }
+    }
+  ],
+  "última_actualización": "2025-06-25",
   "estructura_entrada": {
     "fecha": "YYYY-MM-DD",
     "foco_dia": "",
