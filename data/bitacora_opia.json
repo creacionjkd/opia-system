@@ -1,0 +1,23 @@
+{
+  "bitacora": [],
+  "última_actualización": null,
+  "estructura_entrada": {
+    "fecha": "YYYY-MM-DD",
+    "foco_dia": "",
+    "intención_usuario": "",
+    "proyectos_asociados": [],
+    "estado_inicial": {
+      "energía": "",
+      "emocional": "",
+      "mental": ""
+    },
+    "acciones_clave": [],
+    "resultados_obtenidos": [],
+    "notas_finales": "",
+    "evaluación_auto": {
+      "logros": "",
+      "retos": "",
+      "aprendizajes": ""
+    }
+  }
+}
